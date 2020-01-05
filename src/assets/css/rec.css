@@ -1,0 +1,71 @@
+.rec-con {
+    width: 100%;
+    margin-top: 3.6rem;
+}
+
+.rec-song span {
+    display: inline-block;
+    width: 2px;
+    height: 24px;
+    background: #d43c33;
+    vertical-align: middle;
+}
+
+.rec-song h4 {
+    font-size: 18px;
+    display: inline;
+}
+
+.song-list {
+    margin-top: 10px;
+}
+
+.song-list ul {
+    width: 100%;
+}
+
+.song-list ul li {
+    float: left;
+    width: 33%;
+    margin-left: 1px;
+    margin-bottom: 15px;
+}
+
+.song-list ul li a {
+    width: 100%;
+    text-decoration: none;
+}
+
+.song-list ul li a img {
+    width: 100%;
+}
+
+.song-list ul li p {
+    font-size: 12px;
+    color: #000;
+}
+
+.new-music {
+    margin: 0 5px;
+}
+
+.new-music li {
+    border-bottom: 1px solid #666;
+    padding-bottom: 5px;
+}
+
+.new-music a {
+    text-decoration: none;
+}
+
+.new-music p {
+    font-size: 14px;
+    line-height: .6rem/* 20/72 */
+    ;
+    color: #333;
+}
+
+.new-music span {
+    font-size: 12px;
+    color: #666;
+}

@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: "微软雅黑", "宋体", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    /* line-height:1.5; */
+    line-height: 1;
+    box-sizing: border-box;
+    /* background: #f4f4f4; */
+}
+
+
+/* 
+        逗号隔开，后退机制
+    */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+p,
+dl,
+dd {
+    margin: 0;
+}
+
+img {
+    vertical-align: bottom;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+strong,
+b {
+    font-weight: normal;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    /* 边框合并（折叠） */
+}
+
+.f_l {
+    float: left;
+}
+
+.f_r {
+    float: right;
+}
+
+
+/* 根据实际情况添加 */
+
+th {
+    font-weight: normal;
+    text-align: left;
+    vertical-align: top;
+}
+
+td {
+    text-align: left;
+    vertical-align: top;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: inherit;
+}
+
+input,
+textarea {
+    outline: none;
+    /*轮廓线*/
+}
+
+textarea {
+    resize: none;
+    /* 禁止用户重置元素大小 */
+    overflow: auto;
+    font-family: inherit;
+}
+
+.clearfix::after,
+.clearfix::before {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.background {
+    background-color: rgb(230, 230, 230);
+}
+
+.w {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.center {
+    background-color: rgb(238, 238, 238)
+}
+
+.background {
+    background-color: #fff;
+}
